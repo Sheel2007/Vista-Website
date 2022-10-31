@@ -10,3 +10,17 @@ footer {
 h1 {
     font-family: arial, helvetica, geneva, sans-serif;
 }
+
+h2 ~ p {
+    font-style: italic;
+}
+
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+}
