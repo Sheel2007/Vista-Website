@@ -24,3 +24,18 @@ li a {
 nav ul {
     list-style: none;
 }
+
+nav {
+    background: #d8d8d8;
+    font-weight: bold;
+    float: left;
+    height: 420px;
+    padding-right: 24px;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+section {
+    background-image: url("../media/globe.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
