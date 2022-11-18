@@ -25,7 +25,10 @@ h2 ~ p {
 }
 
 li {
+    width: 200px;
+    height: 50px;
     text-decoration: none;
+    padding-left: 100px;
 }
 
 ul {
@@ -37,7 +40,7 @@ ul {
 }
 
 nav {
-    display: flex;
+    display: inline;
     justify-content: space-between;
     /*background: #d8d8d8;*/
     font-weight: bold;
@@ -51,9 +54,13 @@ nav {
 }
 
 a {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     text-decoration: none;
     color: black;
-    text-align: right;
+    text-align: center;
 }
 
 .menu {
