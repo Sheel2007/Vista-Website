@@ -1,73 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="Description" content="Sample Website for learning HTML5 and CSS3">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>Vista Website</title>
-        <script>
-            function init() {
-                var loc = window.location.href;
-                var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
-                var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
-                                        loc + '?profile=css3';
-                document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
-                document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
-            }
-            window.onload = init;
-        </script>
-        <section class="menu">
-            <nav>
+<head>
+    <title>Vista Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Vista</h2>
+            </div>
+
+            <div class="menu">
                 <ul>
-                    <li><a href="about.html">About Vista's Board Members</a></li>
-                    <li><a href="coms.html">Communication</a></li>
-                    <li><a href="Lab_3-2/index.htm">Rebranding</a></li>
-                    <li><a href="javascript/javascript.html">Javascript</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-            </nav>  
-        </section>
-    </head>
-    <body>
-        <h1><em>Vista</em></h1>
-        <section>
-            <article>
-                <h2><u>What is Vista</u></h2>
-                <p>Vista is a home owners association located in Courthouse in Arlington Virginia.</p>
-         
-                <h2><u>Our Mission</u></h2>
-                <p>
-                    Our Mission is to provide a safe community of Town Houses.  
-                </p>
-                <img src="Lab_3-2/media/pool.png" width="212" height="121" alt="Speakers">
-            </article>
-        
-            <article>
-                <h2><u>What Ignites Our Passion</u></h2>
-                <p>
-                    At Vista, we believe everyone should be able to feel alive. Wake up inspired. Live in a vibrant urban village where you can walk to everything such as: Locavore Restaurants, Artisan Coffee Shops, and Nightlife Hotspots. Hit up the Farmer's Market or head into DC - the Court House Metro stop is just two blocks away. Enjoy amazing access to the city and then come home to tree-lined sidewalks and a true neighborhood vibe.
-                </p>
-            </article>
-            <video width="360" height="270" controls="controls" poster="image.png">
-                <source src="media/townhouse.mp4" type="video/mp4">
-                Your browser does not support the HTML5 video element.
-            </video>
-            <article>
-                <h2><u>Communication</u></h2>
-                <p>
-                    We have board meetings every 6 months and constantly communicate through emails.
-                    <br><audio controls="controls">
-                        <source src="media/uCorp%20Audio.mp3" type="audio/mpeg">
-                        Your browser does not support the HTML5 audio element.
-                    </audio>
-                </p>
-            </article>
-        </section>
-        <footer id="vLinks">
-            <hr>
-            <a id="vLink1">
-            <strong> HTML </strong> Valid! </a> &nbsp; 
-            <a id="vLink2">
-            <strong> CSS </strong> Valid! </a>
-        </footer>
-    </body>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1><span>Visit Vista</span> <br>at Courthouse</h1>
+            <p class="par">Looking for a new home.? Visit Vista! At Vista we are more than 
+                <br>a neighboorhood of town houses, we are a community</p>
+
+                <button class="cn"><a href="#">Learn More</a></button>
+
+            
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
 </html>
