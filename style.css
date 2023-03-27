@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .main{
     width: 100%;
     background: black;
@@ -279,4 +283,28 @@ a:hover:after {
 }
 .icons ion-icon:hover{
     color: #ff7200;
+}
+
+#about-us {
+    background-color: #000;
+}
+
+#about-us .header {
+    font-family: 'Times New Roman';
+    color: #fff;
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+#about-us p {
+    color: #fff;
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
 }
