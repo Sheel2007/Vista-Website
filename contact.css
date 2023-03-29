@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    text-decoration: double;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ff7200;
+}
+body{
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+.social-media{
+    display: flex;
+    justify-items: center;
+
+}
+a {
+    display: flex;
+    background-color: rgb(248, 246, 244);
+    height: 50px;
+    width: 50px;
+    margin-left:15px;
+    border-radius: 3px;
+
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(207, 203, 203, 0.7);
+}
+a i{
+    font-size: 35px;
+    color: #777;
+}
+a:hover{
+    box-shadow: inset 4px 4px 10px -1px rgba(30, 29, 29, 0.2),
+                inset -4px -4px 10px -1px rgba(183, 174, 174, 0.7),
+                    -0.5px -0.5px 0px -1px rgba(152, 127, 127, 0.7);
+    border:1px solid rgba(196, 39, 39, 0.1)
+} 
