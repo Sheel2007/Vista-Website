@@ -7,6 +7,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #000;
+    color: #fff;
+}
+
 .main{
     width: 100%;
     background: black;
@@ -289,7 +294,7 @@ a:hover:after {
     background-color: #000;
 }
 
-#about-us .header {
+.header {
     font-family: 'Times New Roman';
     color: #fff;
     font-size: 50px;
@@ -297,6 +302,32 @@ a:hover:after {
 }
 
 #about-us p {
+    color: #fff;
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+#events p {
+    color: #fff;
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+#community p {
     color: #fff;
     position: relative;
     height: auto;
