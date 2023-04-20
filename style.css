@@ -301,7 +301,7 @@ a:hover:after {
     padding-left: 100px;
 }
 
-#about-us p {
+#events p {
     color: #fff;
     position: relative;
     height: auto;
@@ -314,16 +314,16 @@ a:hover:after {
     line-height: 30px;
 }
 
-#events {
+#about-uss {
     padding: 50px;
 
 }
 
-#events h1 {
+#about-uss h1 {
     padding-left: 100px;
 }
   
-.event {
+.person {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
@@ -332,23 +332,23 @@ a:hover:after {
     display: inline-block;
 }
 
-.event h3 {
+.person h3 {
     margin-top: 0;
     font-size: 28px;
 }
 
-.event img {
+.person img {
     max-width: 60%;
     height: auto;
 }
 
-.event p {
+.person p {
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
 
-.event a {
+.person a {
     display: inline-flex;
     padding: 10px 20px;
     background-color: #ff7200;
